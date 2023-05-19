@@ -1,0 +1,11 @@
+site_name: APL Search
+site_description: Search APL-related sources of information
+theme:
+  name: material
+  favicon: apl-logo-green.svg
+  logo: apl-logo-white.svg
+  features:
+    - navigation.tabs
+plugins: []
+extra_css:
+  - main.css

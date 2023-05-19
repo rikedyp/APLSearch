@@ -1,0 +1,15 @@
+/* Custom colors */
+[data-md-color-scheme="default"] {
+	--md-primary-fg-color: #a54cce;
+	--md-accent-fg-color: 127,  0,185;
+}
+
+/* Fix invisible search button */
+/* https://stackoverflow.com/questions/36799767/google-custom-search-engine-cse-button-image-missing-not-appearing */
+.gsc-search-button .gsc-search-button-v2 {
+	height: 26px !important;
+	margin-top: 0 !important;
+	min-width: 13px !important;
+	padding: 5px 26px !important;
+	width: 68px !important;
+}
